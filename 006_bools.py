@@ -28,3 +28,9 @@ x + 1 < x + 0
 # Negacia hodnoty bool
 x = True 
 not(x)
+
+# Priklady na doma aka je vysledna pravdivostna hodnota tychto vyrazov 
+not(3 < 5) and 4 < 5
+4 > 3 and 5 < 4
+x = 14 
+not(x < -x) and 14 > 11 or 1 < 2
